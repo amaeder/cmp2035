@@ -1,1 +1,3 @@
-this is a sentence on line 1
+this is a sentence on line 1.
+
+this is another sentence.
