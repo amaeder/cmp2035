@@ -1,0 +1,228 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+	line-height: 1.88889;
+	color: #ffffff; 
+	background: #fff url(matterhorn2.png) no-repeat bottom right; 
+	background-size: 1100px;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin-top: 0; 
+	margin-right: 600px;
+    text-align: justify;
+	background-color: #106da7;
+    opacity: .92;
+    padding: 0px 10px 0px 10px;
+    }
+h3 { 
+	font-family: 'Oswald', sans-serif;
+	text-transform:  uppercase;
+    letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #ffffff;
+    background-color: #106da7;
+    opacity: .92;
+    margin-right: 600px;
+    padding: 0px 10px 0px 10px;
+	}
+a:link { 
+	font-weight: 400; 
+	text-decoration: none; 
+	color: #FFBC68;
+	}
+a:visited { 
+	font-weight: 400; 
+	text-decoration: none; 
+	color: #FFBC68;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #FFBC68;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+	background: url(zen-bg.jpg) no-repeat top left; 
+	padding: 0 175px 0 110px;  
+	margin: 0; 
+	position: relative;
+	}
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
+
+header h1 { 
+	font-family: 'Oswald', sans-serif;
+    background: transparent url(h1.png) no-repeat top left;
+	margin: 10px 0px 20px 10px;
+	padding-left: 20px;
+    display: inline;
+	width: 282px;
+	height: 74px;
+	float: left;
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+/*header h2 { 
+	font-family: 'Oswald', sans-serif;
+    text-transform:  uppercase;
+    background: transparent url(h1.jpg) no-repeat top left; 
+	margin-top: 58px; 
+	margin-bottom: 40px; 
+	height: 18px; 
+	float: right;
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;*/
+	}
+header {
+	padding-top: 20px;
+	height: 87px;
+}
+
+.summary {
+	clear: both; 
+	margin-right: 400px;
+	width: 1200px; 
+	float: left;
+    padding-left: 10px;
+    	}
+.summary p {
+	font: 1em/2.2 oswald; 
+	text-align: center;
+	}
+
+.preamble {
+	clear: left;
+    padding-left: 10px; 
+	margin-bottom: 40px;
+	margin-right: 400px;
+    width: 1200px;
+}
+.supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	margin-right: 400px;
+    width: 1200px;
+    }
+
+footer { 
+	text-align: left; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+
+.sidebar {
+	margin-left: 600px; 
+	position: fixed;
+	top: 0; 
+	right: 0;
+	}
+
+.sidebar ul {
+	display: inline;
+    margin: 0;
+	padding: 0;
+    list-style-type: square;
+	}
+.sidebar li {
+	line-height: 1.3em; 
+	background: transparent url() no-repeat top center; 
+	display: inline; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
+	list-style-type: square;
+	color: #106da7;
+}
+.sidebar li a:link {
+	color: #106da7;
+	}
+.sidebar li a:visited {
+	color: #106da7;
+	}
+
+.sidebar .wrapper { 
+	/*display: inline;*/
+    font: 'oswald', sans-serif; 
+    font-weight: 300;
+	background: transparent url(paper-bg.jpg) top left repeat-y; 
+	padding: 10px; 
+	margin-top: 0px; 
+	width: 130px; 
+	}
+.sidebar h3.select { 
+	background: transparent url() no-repeat top left; 
+	margin: 10px 0 5px 0; 
+	width: 97px; 
+	height: 16px; 
+    display: block
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+    list-style-type: none;
+	}
+.sidebar h3.archives { 
+	list-style: none;
+    background: transparent url() no-repeat top left; 
+	margin: 25px 0 5px 0; 
+	width:57px; 
+	height: 14px; 
+   	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+    display: inline-block;
+    list-style-type: disc;
+	}
+.sidebar h3.resources { 
+	background: transparent url() no-repeat top left; 
+	margin: 25px 0 5px 0; 
+	width:63px; 
+	height: 10px; 
+    display: inline-block;
+    text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	list-style-type: disc;
+}
+
+
+
+
+
+.extra1 {
+/*	background: transparent url() top left no-repeat;*/
+	/*position:; */
+	top: 0px; 
+	right: 0; 
+	width: 148px; 
+	height: 110px;
+	}
